@@ -1,9 +1,10 @@
 //
 @import "~bootstrap/scss/bootstrap";
+@import "partials/_header";
+@import "partials/_nav";
 
 
-
-
+// sez Comics
 .container-fluid {
     background-color: #1c1c1c;
     .row{

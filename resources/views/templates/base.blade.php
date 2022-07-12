@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    @yield('header')
+    @include('include.header')
 
     @yield('series')
 

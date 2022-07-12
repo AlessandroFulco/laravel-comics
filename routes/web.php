@@ -19,6 +19,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home', [
-        'arrComics' => config('comics')
+        'arrComics' => config('comics'),
+        'arrLink' => config('menuLink')
     ]);
 })->name('home');
+
+

@@ -1,13 +1,8 @@
 @extends('templates.base')
 
-@section('header')
-    <header>
-        <h1>sono un HEADER</h1>
-    </header>
-@endsection
 
+{{-- sezione comics --}}
 @section('series')
-
     <div class="container-fluid">
         <div class="row">
             <div class="col">
@@ -29,8 +24,5 @@
             </div>
         </div>
     </div>
-
-
-
 @endsection
 

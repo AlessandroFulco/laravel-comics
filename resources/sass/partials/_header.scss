@@ -1,0 +1,36 @@
+header{
+    .container-fluid {
+        background-color: #0282f9;
+        #pre-header {
+            height: 30px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 30px;
+            color: #fff;
+            h6 {
+                margin-bottom: 0;
+                font-size: 12px;
+            }
+        }
+    }
+
+    .content-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+            scale: 0.8;
+        }
+
+        #search{
+            border-bottom: 2px solid #0282f9;
+
+            input {
+                border: none;
+
+            }
+        }
+    }
+}
