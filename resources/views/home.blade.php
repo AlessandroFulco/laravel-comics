@@ -18,7 +18,9 @@
                                     <div class="my-card">
                                         <img class="img-card" src="{{$comics['thumb']}}" alt=" {{ $comics['title']}}">
                                         <h5 class="title-comic">
-                                            {{ $comics['series']}}
+                                            <a href="{{ route('comic', ['id' => $comics['id']]) }}">
+                                                {{ $comics['series']}}
+                                            </a>
                                         </h5>
                                     </div>
                                 </div>
