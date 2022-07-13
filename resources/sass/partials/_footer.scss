@@ -1,0 +1,42 @@
+.container-fluid.my-bg-image {
+    background-image: url('/images/footer-bg.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+
+    color: #fff;
+
+    .content-footer {
+        display: flex;
+
+        .list {
+
+            ul {
+                list-style-type: none;
+                padding: 0;
+            }
+        }
+
+
+    }
+    #bg-logo-footer {
+        // width: 55%;
+        height: 100%;
+        background-image: url("/images/dc-logo-bg.png");
+        background-position: center center;
+        background-repeat: none;
+        background-size: cover;
+    }
+
+}
+.container-fluid.bg-color-footer-down {
+    background-color: #303030;
+
+    img{
+        margin-left: 20px;
+    }
+
+
+}
+
+

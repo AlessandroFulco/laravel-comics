@@ -12,7 +12,11 @@
 
     @include('include.header')
 
+    @include('include.jumbo')
+
     @yield('series')
+
+    @include('include.footer')
 
 </body>
 </html>

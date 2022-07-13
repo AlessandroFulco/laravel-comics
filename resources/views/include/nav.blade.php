@@ -1,8 +1,8 @@
 <nav>
-    <ul>
-        @foreach ($arrLink as $link)
+    <ul class="my-0">
+        @foreach (config('menuLink') as $link)
         <li>
-            <a href="#">
+            <a class="{{ Route::currentRouteName() === $link['route'] ? 'active' : ''}}" href="{{ route($link['route'])}}">
                 {{$link['nameLink']}}
             </a>
         </li>

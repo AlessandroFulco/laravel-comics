@@ -12219,6 +12219,101 @@ nav ul a {
   text-decoration: none;
   color: #555;
   font-weight: bold;
+  padding: 0 5px;
+}
+
+.active {
+  background-color: #0282f9;
+  color: #fff;
+}
+
+.active:hover {
+  color: #fff;
+}
+
+.jumbo {
+  height: 400px;
+  background-image: url("/images/jumbotron.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.container-fluid.my-bg-info,
+.my-bg-info.container-sm,
+.my-bg-info.container-md,
+.my-bg-info.container-lg,
+.my-bg-info.container-xl,
+.my-bg-info.container-xxl {
+  background-color: #0282f9;
+}
+
+.card-info img {
+  max-height: 60px;
+  width: auto;
+}
+
+.container-fluid.my-bg-image,
+.my-bg-image.container-sm,
+.my-bg-image.container-md,
+.my-bg-image.container-lg,
+.my-bg-image.container-xl,
+.my-bg-image.container-xxl {
+  background-image: url("/images/footer-bg.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.container-fluid.my-bg-image .content-footer,
+.my-bg-image.container-sm .content-footer,
+.my-bg-image.container-md .content-footer,
+.my-bg-image.container-lg .content-footer,
+.my-bg-image.container-xl .content-footer,
+.my-bg-image.container-xxl .content-footer {
+  display: flex;
+}
+
+.container-fluid.my-bg-image .content-footer .list ul,
+.my-bg-image.container-sm .content-footer .list ul,
+.my-bg-image.container-md .content-footer .list ul,
+.my-bg-image.container-lg .content-footer .list ul,
+.my-bg-image.container-xl .content-footer .list ul,
+.my-bg-image.container-xxl .content-footer .list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.container-fluid.my-bg-image #bg-logo-footer,
+.my-bg-image.container-sm #bg-logo-footer,
+.my-bg-image.container-md #bg-logo-footer,
+.my-bg-image.container-lg #bg-logo-footer,
+.my-bg-image.container-xl #bg-logo-footer,
+.my-bg-image.container-xxl #bg-logo-footer {
+  height: 100%;
+  background-image: url("/images/dc-logo-bg.png");
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
+}
+
+.container-fluid.bg-color-footer-down,
+.bg-color-footer-down.container-sm,
+.bg-color-footer-down.container-md,
+.bg-color-footer-down.container-lg,
+.bg-color-footer-down.container-xl,
+.bg-color-footer-down.container-xxl {
+  background-color: #303030;
+}
+
+.container-fluid.bg-color-footer-down img,
+.bg-color-footer-down.container-sm img,
+.bg-color-footer-down.container-md img,
+.bg-color-footer-down.container-lg img,
+.bg-color-footer-down.container-xl img,
+.bg-color-footer-down.container-xxl img {
+  margin-left: 20px;
 }
 
 .container-fluid,
