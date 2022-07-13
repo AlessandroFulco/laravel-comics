@@ -7,7 +7,7 @@
 
         <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
 
-        <span>{{$comic['price']}}</span>
+        <div>{{$comic['price']}}</div>
         <p>{{$comic['description']}}</p>
         <ul>
             @foreach ($comic['artists'] as $item)

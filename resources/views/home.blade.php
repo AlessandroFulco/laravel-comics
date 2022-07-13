@@ -16,12 +16,12 @@
                             @foreach (config('comics') as $comics)
                                 <div class="col-2">
                                     <div class="my-card">
-                                        <img class="img-card" src="{{$comics['thumb']}}" alt=" {{ $comics['title']}}">
-                                        <h5 class="title-comic">
+                                        <h6 class="title-comic">
                                             <a href="{{ route('comic', ['id' => $comics['id']]) }}">
+                                                <img class="img-card" src="{{$comics['thumb']}}" alt=" {{ $comics['title']}}">
                                                 {{ $comics['series']}}
                                             </a>
-                                        </h5>
+                                        </h6>
                                     </div>
                                 </div>
                             @endforeach
